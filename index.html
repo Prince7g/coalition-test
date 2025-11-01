@@ -1,62 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Patient Dashboard - Jessica Taylor</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-  <div class="app">
-    <aside class="sidebar">
-      <div class="brand">Coalition Health</div>
-      <nav class="menu">
-        <div class="menu-item active">Dashboard</div>
-        <div class="menu-item">Patients</div>
-        <div class="menu-item">Reports</div>
-      </nav>
-    </aside>
-
-    <main class="main">
-      <header class="header">
-        <h1>Patient Summary</h1>
-        <div class="patient-card">
-          <div class="avatar" id="avatar">JT</div>
-          <div>
-            <h2 id="name">Jessica Taylor</h2>
-            <p id="meta">Loading...</p>
-          </div>
-        </div>
-      </header>
-
-      <section class="content">
-        <div class="left">
-          <div class="panel">
-            <h3>Vitals</h3>
-            <ul id="vitals-list"></ul>
-          </div>
-          <div class="panel">
-            <h3>Notes</h3>
-            <p id="notes">Loading...</p>
-          </div>
-        </div>
-
-        <div class="right">
-          <div class="panel">
-            <h3>Blood Pressure (Yearly)</h3>
-            <canvas id="bpChart" height="200"></canvas>
-          </div>
-
-          <div class="panel small">
-            <h3>Contact</h3>
-            <p id="contact">Loading...</p>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Patient Dashboard — Jessica Taylor</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
