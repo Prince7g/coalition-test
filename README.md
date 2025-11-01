@@ -1,22 +1,20 @@
-Coalition Technologies Frontend Skills Test
+## Coalition Technologies — Jessica Taylor Dashboard
+# Candidate:** Prince Raj**
 
-Candidate: Prince Raj  
-Project: Patient Dashboard (Jessica Taylor)
+ Overview
+Single-page React (Vite) app that converts the Adobe XD patient dashboard to a working HTML/CSS/JS app and populates UI using the Coalition Patient Data API. Displays **only Jessica Taylor**
 
----
+## Tech
+- React 18 (Vite)
+- Tailwind CSS
+- Chart.js
 
-🧠 Overview
-This project converts the given Adobe XD design into a responsive single-page site.  
-It fetches real patient data using the **Coalition Technologies Patient Data API** and displays information only for **Jessica Taylor**.
+## How to run
+1. `npm install`
+2. `npm run dev`
+3. Open `http://localhost:5173`
 
+## API
+- Current API base used: `https://fedskillstest.coalitiontechnologies.workers.dev`
+  
 
-
-🧩 Tech Stack
-- HTML5**, **CSS3**, **JavaScript (ES6+)**
-- Chart.js** — for the blood pressure graph
-- Fetch API** — for making GET requests
-
-
-
- ⚙️ How It Works
-1. The app fetches data from:GET https://fedskillstest.coalitiontechnologies.workers.dev/patients
